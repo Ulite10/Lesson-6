@@ -15,23 +15,20 @@
 }
 
 .header {
-    display: inline-block;
-    width: 1920px;
+    padding-top: 79px;
     height: 700px;
     background: #EBEBEB;
-    font-family: "Roboto Regular";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0.1em;
     text-align: left;
     margin-bottom: 112px;
 }
 
 .nav {
     margin-left: 399px;
-    margin-top: 79px;
-    padding: 0px;
+    font-family: "Roboto Regular";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
 }
 
 .nav a {
@@ -45,22 +42,22 @@
 }
 
 .header h1 {
+    width: 541px;
     font-family: "Roboto Medium";
     font-size: 48px;
     font-weight: 500;
     line-height: 79px;
     letter-spacing: 0em;
-    text-align: left;
     margin: 162px 980px 60px 399px;
 }
   
 .header p {
     font-family: "Roboto Regular";
+    width: 540px;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0em;
-    text-align: left;
     margin: 0px 980px 65px 400px;
     color: #727272;
 }
@@ -82,9 +79,7 @@
 
 .about {
     display: inline-block;
-}
-.main {
-    width: 1920px;
+    text-align: center;
 }
 
 .info-title {
@@ -92,26 +87,23 @@
     font-weight: 500;
     font-size: 32px;
     line-height: 37px;
-    text-align: center;
     margin-right: 759px;
     margin-left: 758px;
     margin-bottom: 50px;
 }
 
 .info-text {
+    width: 540px;
     font-family: "Roboto Regular";
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    text-align: center;
     color: #727272;
     margin-right: 690px;
     margin-left: 690px;
 }
 
 .project-info {
-    display: inline-block;
-    width: 1920px;
     height: 250px;
     background: #500E0A;
     padding-left: 409px;
@@ -174,10 +166,10 @@ iframe {
 }
 
 .footer {
-    width: 1920px;
     height: 151px;
     background: #500E0A;
-    padding: 50px 1321px 50px 406px;
+    padding-top: 50px; 
+    padding-left: 406px;
 }
 
 .footer h3 {
